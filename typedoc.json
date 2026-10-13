@@ -1,0 +1,9 @@
+{
+  "name": "C++ Include Overlapping Detector",
+  "entryPoints": ["src/extension.ts", "src/graph.ts", "src/parser.ts"],
+  "tsconfig": "tsconfig.json",
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "docs",
+  "readme": "none",
+  "excludePrivate": false
+}
